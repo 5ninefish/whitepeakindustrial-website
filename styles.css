@@ -130,19 +130,20 @@ h1 .accent { color: var(--accent); }
 /* ── Site Photo ── */
 .site-photo {
   margin: 0 var(--x);
-  margin-bottom: 0;
+  height: 220px;
+  overflow: hidden;
 }
 
 .site-photo img {
   display: block;
   width: 100%;
-  height: 220px;
+  height: 100%;
   object-fit: cover;
   object-position: center center;
 }
 
 @media (min-width: 768px) {
-  .site-photo img { height: 380px; }
+  .site-photo { height: 380px; }
 }
 
 /* ── Capabilities ── */
