@@ -1,0 +1,5 @@
+/*
+  Content-Security-Policy: default-src 'self'; font-src https://fonts.bunny.net; style-src 'self' https://fonts.bunny.net
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
